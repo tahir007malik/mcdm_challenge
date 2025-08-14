@@ -36,4 +36,4 @@ The business question we want to answer:
 - Apply **type casting** to ensure schema consistency for `UNION ALL`.
 
 ## Dashboard
-[dashboard](https://lookerstudio.google.com/u/0/reporting/e76fe899-1819-4abc-9ac4-50598e79e3bd/page/tEnnC)
+[Looker](https://lookerstudio.google.com/u/0/reporting/e76fe899-1819-4abc-9ac4-50598e79e3bd/page/tEnnC)
