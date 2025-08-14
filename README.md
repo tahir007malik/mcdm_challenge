@@ -16,21 +16,6 @@ The business question we want to answer:
 
 ---
 
-## Project Structure
-├── models/
-│ ├── staging/ # Staging models for each platform
-│ │ ├── stg_facebook_ads.sql
-│ │ ├── stg_tiktok_ads.sql
-│ │ ├── stg_bing_ads.sql
-│ │ ├── stg_twitter_ads.sql
-│ ├── final/
-│ │ ├── paid_ads_basic_performance.sql
-│ │ ├── paid_ads_basic_performance_with_metrics.sql (Optional with CPC & CTR)
-├── seeds/ # Raw CSV seed data
-├── README.md
-└── dbt_project.yml
----
-
 ## Data Sources
 - **Facebook Ads** → `src_ads_creative_facebook_all_data`
 - **TikTok Ads** → `src_ads_tiktok_ads_all_data`
@@ -51,3 +36,4 @@ The business question we want to answer:
 - Apply **type casting** to ensure schema consistency for `UNION ALL`.
 
 ## Dashboard
+[dashboard](https://lookerstudio.google.com/u/0/reporting/e76fe899-1819-4abc-9ac4-50598e79e3bd/page/tEnnC)
